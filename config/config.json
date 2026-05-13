@@ -1,0 +1,8 @@
+{
+  "environment": "development",
+  "payment_gateway": "stripe_test",
+  "max_transaction_amount": 100000,
+  "supported_currencies": ["USD", "EUR", "GBP", "INR"],
+  "retry_attempts": 3,
+  "timeout_ms": 5000
+}
